@@ -1,0 +1,14 @@
+POST https://stint.gt.tc/upload_document.php
+Content-Type: multipart/form-data
+
+phone_number
+device_id
+original_file_name
+file_size
+mime_type
+file_hash
+local_modified_time
+file
+
+The Android app reads phone_number from its persistent local storage for EVERY file upload.
+The phone number is not taken from the current UI at upload time.
